@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 h-screen flex items-center justify-center ">
+    <div class="flex flex-col items-center justify-center">
+
+        <div class="text-center  bg-gray-800 p-10 rounded-lg shadow-lg border-b-2 border-t-2 border-white">
+
+            <h1 class="text-gray-200 font-mono text-2xl sm:text-xl"
+                style="font-size: 37px; line-height: 50px; letter-spacing: 3.94px; font-weight: 500;">
+                Counter
+            </h1>
+            <h1 class="text-gray-200 font-mono text-[70px]" id="value">0</h1>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center mt-10 container">
+            <button class="bg-gray-700 text-gray-200 font-mono text-2xl px-4 py-2 rounded-lg m-2 btn increament1 hover:text-green-500"
+                id="increment">Increment</button>
+            <button class="bg-gray-700 text-gray-200 font-mono text-2xl px-4 py-2 rounded-lg m-2 btn reset1 "
+                id="Reset">Reset</button>
+            <button class="bg-gray-700 text-gray-200 font-mono text-2xl px-4 py-2 rounded-lg m-2 btn decresement1 hover:text-red-500 hover:shadow-xl"
+                id="decrement">Decrement</button>
+        </div>
+
+    </div>
+</body>
+    <script src="counter.js"></script>
+</html>
